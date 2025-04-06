@@ -46,7 +46,10 @@ GIF created with [Chrome Capture - screenshot & GIF](https://chromewebstore.goog
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges encountered:
+- Choosing the suitable API
+- Determmining how to display the item cards
+- Filter bar that's quick and smooth
 
 ## License
 
