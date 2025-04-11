@@ -31,6 +31,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Implemented responsive design to ensure the dashboard looks good on different screen sizes
+- [x] Added a Google Maps link in the detail view when brewery coordinates are available
 - [x] Included a search feature that filters breweries by name in real-time
 - [x] Added a state filter dropdown to quickly find breweries in specific locations
 - [x] Added a sidebar with additional helpful resources
