@@ -1,7 +1,13 @@
+import { Link } from "react-router-dom";
+
 function BreweryCard({ brewery }) {
   return (
     <div className="brewery-card">
-      <h3>{brewery.name}</h3>
+      <h3>
+        <Link to={`/brewery/${brewery.id}`} className="brewery-link">
+          {brewery.name}
+        </Link>
+      </h3>
       <div className="brewery-details">
         <p>
           <strong>Type:</strong> {brewery.brewery_type}
@@ -9,20 +15,9 @@ function BreweryCard({ brewery }) {
         <p>
           <strong>Location:</strong> {brewery.city}, {brewery.state}
         </p>
-        {brewery.website_url && (
-          <p>
-            <a
-              href={brewery.website_url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit Website
-            </a>
-          </p>
-        )}
-        <p>
-          <strong>Phone:</strong> {brewery.phone || "N/A"}
-        </p>
+        <Link to={`/brewery/${brewery.id}`} className="view-details">
+          View Details
+        </Link>
       </div>
     </div>
   );
