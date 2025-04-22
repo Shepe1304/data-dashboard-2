@@ -14,7 +14,7 @@ function App() {
         <Sidebar />
         <main className="content">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/data-dashboard-2" element={<Dashboard />} />
             <Route path="/brewery/:id" element={<BreweryDetail />} />
           </Routes>
         </main>

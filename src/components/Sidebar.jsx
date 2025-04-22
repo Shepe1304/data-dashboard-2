@@ -4,14 +4,14 @@ function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-header">
-        <Link to="/" className="logo-link">
+        <Link to="/data-dashboard-2" className="logo-link">
           <h2>Brewery Explorer</h2>
         </Link>
       </div>
       <nav className="sidebar-nav">
         <ul>
           <li>
-            <Link to="/" className="nav-link">
+            <Link to="/data-dashboard-2" className="nav-link">
               Dashboard
             </Link>
           </li>
