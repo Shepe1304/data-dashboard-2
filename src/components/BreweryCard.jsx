@@ -4,7 +4,7 @@ function BreweryCard({ brewery }) {
   return (
     <div className="brewery-card">
       <h3>
-        <Link to={`/brewery/${brewery.id}`} className="brewery-link">
+        <Link to={`/data-dashboard-2/brewery/${brewery.id}`} className="brewery-link">
           {brewery.name}
         </Link>
       </h3>
@@ -15,7 +15,7 @@ function BreweryCard({ brewery }) {
         <p>
           <strong>Location:</strong> {brewery.city}, {brewery.state}
         </p>
-        <Link to={`/brewery/${brewery.id}`} className="view-details">
+        <Link to={`/data-dashboard-2/brewery/${brewery.id}`} className="view-details">
           View Details
         </Link>
       </div>
