@@ -6,7 +6,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/data-dashboard-2">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
