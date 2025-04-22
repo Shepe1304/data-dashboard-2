@@ -35,7 +35,7 @@ function BreweryDetail() {
 
   return (
     <div className="brewery-detail">
-      <Link to="/data-dashboard-2" className="back-link">
+      <Link to="/" className="back-link">
         &larr; Back to Dashboard
       </Link>
 
